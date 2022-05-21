@@ -1,10 +1,17 @@
+import React from 'react';
 import './App.css';
+
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+import Featured from './components/Featured';
 
 function App() {
   return (
-    <div className="App">
-      1
-    </div>
+    <>
+      <NavBar />
+      <Hero />
+      <Featured />
+    </>
   );
 }
 
