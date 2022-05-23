@@ -121,7 +121,7 @@ p {
 }
 
 input {
-  padding: 12px 32px;
+  padding: 10px 15px;
   border: 1px solid var(--primary-color);
   background-color: transparent;
   border-radius: 24px 4px;
@@ -147,13 +147,7 @@ input {
   p {
     font-size: 1.6rem;
   }
-
-  .btn {
-    width: 100%;
-    padding: 10px 30px;
-  }
-
-  input {
+  .input-container {
     width: 100%;
   }
 }

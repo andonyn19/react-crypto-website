@@ -1,0 +1,32 @@
+.earn .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.earn .left {
+  text-align: center;
+}
+
+.earn img {
+  width: 300px;
+  transition: .5s ease-in-out;
+  margin: 0 auto;
+}
+
+.earn img:hover {
+  transform: scale(1.1);
+}
+
+.earn .right > * {
+  padding: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .earn .container{
+    grid-template-columns: 1fr;
+  }
+}

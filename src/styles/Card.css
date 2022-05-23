@@ -32,8 +32,14 @@
 .featured .top img {
   width: 50px;
   margin: auto;
-  padding: 3.2rem 0;
+  padding: 2rem 0;
 }
+
+.coin_symbol  {
+  display: block;
+  margin: .5rem 0;
+}
+
 
 .price {
   display: flex;

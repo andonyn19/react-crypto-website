@@ -12,8 +12,8 @@ function Card( { coin } ){
           <img src={coin.image} alt='Bit'/>
         </div>
 
-        <div>
-          <h5>{coin.name} ({coin.symbol.toUpperCase()})</h5> 
+        <div className='card_content'>
+          <h5>{coin.name} <span className='coin_symbol'>({coin.symbol.toUpperCase()})</span> </h5> 
           <p>$ {coin.current_price.toLocaleString()}</p>
         </div>
         {

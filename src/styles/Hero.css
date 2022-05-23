@@ -1,14 +1,23 @@
+.hero {
+  margin: 5rem 0;
+}
+
 .hero .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 4rem auto;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
   padding: 1rem;
+  
 }
 
 .hero .left {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 
 .hero h1{

@@ -26,9 +26,6 @@ function NavBar(){
             <a href='./'>Contact</a>
           </li>
         </ul>
-        <div className='btn_group'>
-          <button className='btn'>Connect Wallet</button>
-        </div>
         <div className='hamburger' onClick={handleClick}>
           {
             click ? <FaTimes size={20} style={{color: '#333'}} /> : <FaBars size={20} style={{color: '#333'}} />
