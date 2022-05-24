@@ -151,4 +151,7 @@ input {
   .input-container {
     width: 100%;
   }
+  input {
+    margin: 0;
+  }
 }
